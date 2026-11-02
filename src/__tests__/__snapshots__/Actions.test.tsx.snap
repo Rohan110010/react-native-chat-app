@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render <Actions /> and compare with snapshot 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    focusable={true}
+    hitSlop={8}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      [
+        [
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "paddingBottom": 8,
+          },
+          undefined,
+        ],
+        {
+          "opacity": 1,
+        },
+        {
+          "pointerEvents": "none",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        [
+          {
+            "alignItems": "center",
+            "justifyContent": "center",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "height": 24,
+            "justifyContent": "center",
+            "width": 24,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "borderBottomWidth": 0,
+              "borderColor": "#8E8E93",
+              "borderRadius": 6,
+              "borderWidth": 2,
+              "height": 18.72,
+              "transform": [
+                {
+                  "rotate": "35deg",
+                },
+              ],
+              "width": 12,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;

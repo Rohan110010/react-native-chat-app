@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Day should not render <Day /> and compare with snapshot 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      {
+        "marginBottom": 12,
+        "marginTop": 8,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "rgba(0, 0, 0, 0.3)",
+          "borderRadius": 14,
+          "paddingHorizontal": 12,
+          "paddingVertical": 5,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#FFFFFF",
+            "fontSize": 13,
+            "fontWeight": "600",
+            "letterSpacing": 0.2,
+          },
+          undefined,
+        ]
+      }
+    >
+      17 April 2022
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`Day should render <Day /> and compare with snapshot 1`] = `
+<View
+  style={
+    [
+      {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      {
+        "marginBottom": 12,
+        "marginTop": 8,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "rgba(0, 0, 0, 0.3)",
+          "borderRadius": 14,
+          "paddingHorizontal": 12,
+          "paddingVertical": 5,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      style={
+        [
+          {
+            "color": "#FFFFFF",
+            "fontSize": 13,
+            "fontWeight": "600",
+            "letterSpacing": 0.2,
+          },
+          undefined,
+        ]
+      }
+    >
+      17 April 2022
+    </Text>
+  </View>
+</View>
+`;

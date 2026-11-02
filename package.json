@@ -1,0 +1,192 @@
+{
+  "name": "@kesha-antonov/react-native-chat",
+  "version": "5.0.1",
+  "description": "The most complete chat UI for React Native & Web - streaming AI messages, emoji reactions, replies, quick replies, and full customization. TypeScript-first, Expo-ready. A maintained react-native-gifted-chat successor.",
+  "keywords": [
+    "react-native",
+    "react",
+    "react-component",
+    "ios",
+    "android",
+    "react-native-web",
+    "expo",
+    "chat",
+    "chat-ui",
+    "chat-bubble",
+    "messaging",
+    "messenger",
+    "message",
+    "gifted-chat",
+    "react-native-gifted-chat",
+    "ai",
+    "ai-chat",
+    "chatbot",
+    "streaming",
+    "chatgpt",
+    "llm",
+    "typescript",
+    "emoji-reactions",
+    "voice-messages"
+  ],
+  "homepage": "https://github.com/kesha-antonov/react-native-chat#readme",
+  "bugs": {
+    "url": "https://github.com/kesha-antonov/react-native-chat/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kesha-antonov/react-native-chat.git"
+  },
+  "license": "MIT",
+  "author": "Kesha Antonov <innokenty.longway@gmail.com>",
+  "type": "module",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib",
+    "llms.txt"
+  ],
+  "scripts": {
+    "typecheck": "yarn tsc --noEmit",
+    "build": "rm -rf lib && yarn tsc",
+    "tsc:watch": "yarn typecheck --watch",
+    "lint": "yarn eslint src example",
+    "lint:fix": "yarn eslint --cache --fix src example",
+    "prepublishOnly": "yarn lint && yarn test && yarn build",
+    "start": "cd example && expo start",
+    "start:web": "cd example && expo start -w --dev",
+    "test": "TZ=Europe/Paris jest --no-watchman",
+    "test:coverage": "TZ=Europe/Paris jest --coverage",
+    "test:watch": "TZ=Europe/Paris jest --watch",
+    "fresh": "yarn start --reset-cache",
+    "prepare": "yarn husky"
+  },
+  "lint-staged": {
+    "src/*.{json,js,jsx,ts,tsx}": [
+      "yarn lint:fix"
+    ]
+  },
+  "dependencies": {
+    "@types/lodash.isequal": "^4.5.8",
+    "dayjs": "^1.11.23",
+    "lodash.isequal": "^4.5.0",
+    "react-native-zoom-reanimated": "^1.5.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/plugin-transform-class-properties": "^7.27.1",
+    "@babel/plugin-transform-private-methods": "^7.27.1",
+    "@babel/plugin-transform-private-property-in-object": "^7.27.1",
+    "@babel/plugin-transform-react-jsx": "^7.27.1",
+    "@babel/plugin-transform-unicode-property-regex": "^7.27.1",
+    "@babel/preset-env": "^7.28.5",
+    "@react-native-community/cli": "20.2.0",
+    "@react-native-community/cli-platform-android": "20.2.0",
+    "@react-native-community/cli-platform-ios": "20.2.0",
+    "@react-native/babel-preset": "0.86.3",
+    "@react-native/eslint-config": "0.86.3",
+    "@react-native/jest-preset": "0.86.3",
+    "@react-native/metro-config": "0.86.3",
+    "@react-native/typescript-config": "0.86.3",
+    "@shopify/flash-list": "^2.3.2",
+    "@stylistic/eslint-plugin": "^5.10.0",
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/react-native": "^14.0.1",
+    "@types/jest": "^29.5.14",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.5",
+    "@typescript-eslint/eslint-plugin": "^8.68.0",
+    "@typescript-eslint/parser": "^8.68.0",
+    "babel-jest": "^29.7.0",
+    "eslint": "^9.0.0",
+    "eslint-import-resolver-typescript": "^4.4.5",
+    "eslint-plugin-import": "^2.32.0",
+    "eslint-plugin-jest": "^29.16.2",
+    "eslint-plugin-perfectionist": "^5.10.1",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "husky": "^9.1.7",
+    "jest": "^29.7.0",
+    "json": "^11.0.0",
+    "lint-staged": "^17.3.0",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-gesture-handler": "~2.32.0",
+    "react-native-keyboard-controller": "^1.22.4",
+    "react-native-reanimated": "~4.6.0",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-worklets": "~0.12.1",
+    "test-renderer": "^1.2.0",
+    "typescript": "^6.0.3"
+  },
+  "peerDependencies": {
+    "@lodev09/react-native-true-sheet": "*",
+    "@shopify/flash-list": "*",
+    "expo-audio": "*",
+    "expo-blur": "*",
+    "expo-device": "*",
+    "expo-file-system": "*",
+    "expo-haptics": "*",
+    "expo-image-picker": "*",
+    "expo-video": "*",
+    "react": ">=18.0.0",
+    "react-native": "*",
+    "react-native-audio-api": "*",
+    "react-native-gesture-handler": ">=2.0.0",
+    "react-native-keyboard-controller": ">=1.0.0",
+    "react-native-reanimated": ">=3.0.0 || ^4.0.0",
+    "react-native-safe-area-context": ">=5.0.0",
+    "react-native-streamdown": "*",
+    "react-native-svg": "*",
+    "react-native-vision-camera": "*"
+  },
+  "peerDependenciesMeta": {
+    "@lodev09/react-native-true-sheet": {
+      "optional": true
+    },
+    "@shopify/flash-list": {
+      "optional": true
+    },
+    "expo-audio": {
+      "optional": true
+    },
+    "expo-blur": {
+      "optional": true
+    },
+    "expo-device": {
+      "optional": true
+    },
+    "expo-file-system": {
+      "optional": true
+    },
+    "expo-haptics": {
+      "optional": true
+    },
+    "expo-image-picker": {
+      "optional": true
+    },
+    "expo-video": {
+      "optional": true
+    },
+    "react-native-audio-api": {
+      "optional": true
+    },
+    "react-native-streamdown": {
+      "optional": true
+    },
+    "react-native-svg": {
+      "optional": true
+    },
+    "react-native-vision-camera": {
+      "optional": true
+    }
+  },
+  "packageManager": "yarn@4.17.0",
+  "engines": {
+    "node": ">=20"
+  }
+}

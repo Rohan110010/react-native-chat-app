@@ -1,0 +1,112 @@
+import { IMessage } from '@kesha-antonov/react-native-chat'
+
+const baseMessages: Omit<IMessage, '_id'>[] = [
+  {
+    text: `Hello this is an example of the ParsedText, links like http://www.google.com or http://www.facebook.com are clickable and phone number 444-555-6666 can call too.
+        But you can also do more with this package, for example Bob will change style and David too. foo@gmail.com
+        And the magic number is 42!
+        #react #react-native`,
+    createdAt: new Date(Date.UTC(2016, 5, 13, 17, 20, 0)),
+    user: {
+      _id: 1,
+      name: 'John Doe',
+      avatar: 'https://picsum.photos/140/140',
+    },
+  },
+  {
+    text: 'Come on!',
+    createdAt: new Date(Date.UTC(2016, 5, 15, 18, 20, 0)),
+    user: {
+      _id: 2,
+      name: 'John Doe',
+      avatar: 'https://picsum.photos/140/140',
+    },
+  },
+  {
+    text: 'This is a quick reply. Do you love React Native Chat? (checkbox)',
+    createdAt: new Date(Date.UTC(2016, 5, 15, 17, 20, 0)),
+    user: {
+      _id: 2,
+      name: 'John Doe',
+      avatar: 'https://picsum.photos/140/140',
+    },
+    quickReplies: {
+      type: 'checkbox', // or 'radio',
+      values: [
+        {
+          title: 'Yes',
+          value: 'yes',
+        },
+        {
+          title: 'Yes, let me show you with a picture!',
+          value: 'yes_picture',
+        },
+        {
+          title: 'Nope. What?',
+          value: 'no',
+        },
+      ],
+    },
+  },
+  {
+    text: 'This is a quick reply. Do you love React Native Chat? (radio) KEEP IT',
+    createdAt: new Date(Date.UTC(2016, 5, 14, 17, 20, 0)),
+    user: {
+      _id: 2,
+      name: 'John Doe',
+      avatar: 'https://picsum.photos/140/140',
+    },
+    quickReplies: {
+      type: 'radio', // or 'checkbox',
+      keepIt: true,
+      values: [
+        {
+          title: '😋 Yes',
+          value: 'yes',
+        },
+        {
+          title: '📷 Yes, let me show you with a picture!',
+          value: 'yes_picture',
+        },
+        {
+          title: '😞 Nope. What?',
+          value: 'no',
+        },
+      ],
+    },
+  },
+  {
+    text: 'Hi! I work from home today!',
+    createdAt: new Date(Date.UTC(2016, 5, 13, 17, 20, 0)),
+    user: {
+      _id: 1,
+      name: 'John Doe',
+      avatar: 'https://picsum.photos/140/140',
+    },
+    image: 'https://picsum.photos/960/540',
+  },
+  {
+    text: 'Hello developer',
+    createdAt: new Date(Date.UTC(2016, 5, 12, 17, 20, 0)),
+    user: {
+      _id: 2,
+      name: 'John Doe',
+      avatar: 'https://picsum.photos/140/140',
+    },
+  },
+  {
+    text: 'This is a system message',
+    createdAt: new Date(Date.UTC(2016, 5, 11, 17, 20, 0)),
+    system: true,
+    user: {
+      _id: 0,
+    },
+  },
+]
+
+const messages: IMessage[] = baseMessages.map((message, index) => ({
+  ...message,
+  _id: index + 1,
+})).reverse()
+
+export default messages

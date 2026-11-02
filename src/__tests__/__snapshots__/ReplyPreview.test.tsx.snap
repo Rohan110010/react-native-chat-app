@@ -1,0 +1,491 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render <ReplyPreview /> and compare with snapshot 1`] = `
+<View
+  style={
+    [
+      {
+        "overflow": "hidden",
+      },
+      {
+        "height": undefined,
+        "opacity": undefined,
+      },
+    ]
+  }
+>
+  <View
+    onLayout={[Function]}
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderBottomColor": "rgba(0, 0, 0, 0.08)",
+          "borderBottomWidth": 0.5,
+          "flexDirection": "row",
+          "overflow": "hidden",
+          "paddingLeft": 8,
+          "paddingRight": 8,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "marginRight": 8,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "height": 18,
+            "justifyContent": "center",
+            "width": 18,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "borderBottomWidth": 2,
+              "borderColor": "#3390EC",
+              "borderLeftWidth": 2,
+              "height": 6.12,
+              "left": 0,
+              "position": "absolute",
+              "top": 5.040000000000001,
+              "transform": [
+                {
+                  "rotate": "45deg",
+                },
+              ],
+              "width": 6.12,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#3390EC",
+              "borderRadius": 1,
+              "height": 2,
+              "left": 2.16,
+              "position": "absolute",
+              "top": 8.280000000000001,
+              "width": 12.6,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "alignSelf": "stretch",
+          "backgroundColor": "#3390EC",
+          "borderRadius": 2,
+          "marginVertical": 8,
+          "width": 3,
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "flex": 1,
+          "paddingHorizontal": 8,
+          "paddingVertical": 8,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              {
+                "color": "#3390EC",
+                "fontSize": 13,
+                "fontWeight": "600",
+                "marginBottom": 2,
+              }
+            }
+          >
+            Replying to John Doe
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              [
+                {
+                  "color": "#000000",
+                  "fontSize": 14,
+                },
+                undefined,
+              ]
+            }
+          >
+            Original message to reply to
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      hitSlop={8}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "borderRadius": 12,
+          "height": 24,
+          "justifyContent": "center",
+          "width": 24,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "height": 16,
+            "justifyContent": "center",
+            "width": 16,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#8E8E93",
+              "borderRadius": 1,
+              "height": 2,
+              "position": "absolute",
+              "transform": [
+                {
+                  "rotate": "45deg",
+                },
+              ],
+              "width": 16,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#8E8E93",
+              "borderRadius": 1,
+              "height": 2,
+              "position": "absolute",
+              "transform": [
+                {
+                  "rotate": "-45deg",
+                },
+              ],
+              "width": 16,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`should render <ReplyPreview /> with image and compare with snapshot 1`] = `
+<View
+  style={
+    [
+      {
+        "overflow": "hidden",
+      },
+      {
+        "height": undefined,
+        "opacity": undefined,
+      },
+    ]
+  }
+>
+  <View
+    onLayout={[Function]}
+    style={
+      [
+        {
+          "alignItems": "center",
+          "backgroundColor": "#FFFFFF",
+          "borderBottomColor": "rgba(0, 0, 0, 0.08)",
+          "borderBottomWidth": 0.5,
+          "flexDirection": "row",
+          "overflow": "hidden",
+          "paddingLeft": 8,
+          "paddingRight": 8,
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        {
+          "marginRight": 8,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "height": 18,
+            "justifyContent": "center",
+            "width": 18,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "borderBottomWidth": 2,
+              "borderColor": "#3390EC",
+              "borderLeftWidth": 2,
+              "height": 6.12,
+              "left": 0,
+              "position": "absolute",
+              "top": 5.040000000000001,
+              "transform": [
+                {
+                  "rotate": "45deg",
+                },
+              ],
+              "width": 6.12,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#3390EC",
+              "borderRadius": 1,
+              "height": 2,
+              "left": 2.16,
+              "position": "absolute",
+              "top": 8.280000000000001,
+              "width": 12.6,
+            }
+          }
+        />
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "alignSelf": "stretch",
+          "backgroundColor": "#3390EC",
+          "borderRadius": 2,
+          "marginVertical": 8,
+          "width": 3,
+        }
+      }
+    />
+    <View
+      style={
+        {
+          "flex": 1,
+          "paddingHorizontal": 8,
+          "paddingVertical": 8,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Image
+          source={
+            {
+              "uri": "https://example.com/image.jpg",
+            }
+          }
+          style={
+            [
+              {
+                "borderRadius": 4,
+                "height": 40,
+                "marginRight": 8,
+                "width": 40,
+              },
+              undefined,
+            ]
+          }
+        />
+        <View
+          style={
+            {
+              "flex": 1,
+            }
+          }
+        >
+          <Text
+            numberOfLines={1}
+            style={
+              {
+                "color": "#3390EC",
+                "fontSize": 13,
+                "fontWeight": "600",
+                "marginBottom": 2,
+              }
+            }
+          >
+            Replying to John Doe
+          </Text>
+          <Text
+            numberOfLines={2}
+            style={
+              [
+                {
+                  "color": "#000000",
+                  "fontSize": 14,
+                },
+                undefined,
+              ]
+            }
+          >
+            Original message to reply to
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      hitSlop={8}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "alignItems": "center",
+          "borderRadius": 12,
+          "height": 24,
+          "justifyContent": "center",
+          "width": 24,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "height": 16,
+            "justifyContent": "center",
+            "width": 16,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "backgroundColor": "#8E8E93",
+              "borderRadius": 1,
+              "height": 2,
+              "position": "absolute",
+              "transform": [
+                {
+                  "rotate": "45deg",
+                },
+              ],
+              "width": 16,
+            }
+          }
+        />
+        <View
+          style={
+            {
+              "backgroundColor": "#8E8E93",
+              "borderRadius": 1,
+              "height": 2,
+              "position": "absolute",
+              "transform": [
+                {
+                  "rotate": "-45deg",
+                },
+              ],
+              "width": 16,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+</View>
+`;
