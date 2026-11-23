@@ -47,16 +47,6 @@
 <!-- cryptoc-promo:start -->
 <hr />
 
-<h2 align="center">Sponsors</h2>
-
-<p align="center">
-  <a href="https://getstream.io/chat/sdk/react-native/?utm_source=github&utm_medium=sponsor&utm_campaign=keshaantonov&utm_term=react-native-chat-app"><img width="100" height="100" src="https://raw.githubusercontent.com/kesha-antonov/react-native-chat/main/media/getstream-sponsor-logo.png" alt="Stream" /></a>
-  <br />
-  <a href="https://getstream.io/chat/sdk/react-native/?utm_source=github&utm_medium=sponsor&utm_campaign=keshaantonov&utm_term=react-native-chat-app"><strong>Stream</strong></a> - React Native Chat SDK
-</p>
-
-<hr />
-
 <table align="center">
 <tr>
 <td align="center" valign="top" width="190">
@@ -70,7 +60,7 @@
   <a href="https://apps.apple.com/app/cryptoc/id1333169178"><img height="40" src="https://getcryptoc.app/img/appstore.svg?v=2" alt="Download on the App Store" /></a>
   <br />
   -->
-  <a href="https://play.google.com/store/apps/details?id=co.ssoul.CryptoC"><img height="59" src="https://getcryptoc.app/img/googleplay.png?v=2" alt="Get it on Google Play" /></a>
+  <a href="https://play.google.com/store/apps/details?id=co.ssoul.CryptoC&referrer=utm_source%3Dsite%26utm_medium%3Den%26utm_campaign%3Dreadme%26utm_term%3Dreact-native-chat-app"><img height="59" src="https://getcryptoc.app/img/googleplay.png?v=2" alt="Get it on Google Play" /></a>
 </td>
 <td valign="top">
 
